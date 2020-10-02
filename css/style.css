@@ -33,9 +33,9 @@ nav ul{
 nav li{
     list-style: none;
 }
-nav li a:hover{
-    text-decoration: underline;
-    text-decoration-color: white;
+nav li:hover{
+    border-bottom: 2px solid white;
+    transition-delay: 0.1s;
 }
 nav li a{
     color: #ddd;
@@ -295,4 +295,81 @@ textarea{
 }
 .blog-post li ol a{
     text-decoration: none;
+}
+.trends h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 35px;
+    margin-left: 150px;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.trend-page{
+    background-color: whitesmoke;
+}
+.trends img{
+    margin-left: 150px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.trends ul{
+    list-style: none;
+    margin-right: 250px;
+}
+.trends li{
+    display: flex;
+}
+.trends li p{
+    margin-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.trends li small{
+    margin-left: 25px;
+    color: #ddd;
+    padding: 10px;
+}
+.trends li h4{
+    margin-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-weight: 400;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.mini-trends{
+    padding: 25px;
+}
+.mini-trends ul{
+    list-style: none;
+    display: flex;
+    margin-left: 80px;
+}
+.mini-trends li img{
+    border-radius: 3px;
+}
+.mini-trends li{
+    padding: 15px;
+}
+.mini-trends ol{
+    margin-right: 40px;
+}
+.mini-trends li p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 5px;
+    margin-bottom: 0;
+}
+.mini-trends li small{
+    color: #ddd;
+    margin-left: 15px;
+}
+.mini-trends li h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
