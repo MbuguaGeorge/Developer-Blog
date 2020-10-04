@@ -459,8 +459,8 @@ hr{
     }
     .trends li img{
         margin-left: 0;
-        width: 350px;
-        margin-left: 50px;
+        width: 280px;
+        margin-left: 17px;
     }
     .trends li{
         display: block;
@@ -468,21 +468,25 @@ hr{
     }
     .trends ul{
         margin-right: 0;
+        margin-left: 0;
     }
     hr{
         margin-right: 40px;
         margin-left: 40px;
     }
     .trends ol{
-        margin-left: 20px;
+        margin-left: 0;
     }
     .mini-trends li img{
-        width: 350px;
+        width: 280px;
     }
     .mini-trends ul{
         display: block;
         margin-left: 0;
-        margin-left: 40px;
+        margin-left: 15px;
+        margin-right: 0;
+    }
+    .trend-page{
         margin-right: 0;
     }
     .mini-trends hr{
@@ -495,6 +499,10 @@ hr{
     .blog-post{
         padding-left: 0;
         padding-right: 0;
+        padding: 0;
+    }
+    .blog-post li{
+        margin-right: 0;
     }
 }
 
@@ -520,7 +528,6 @@ hr{
     .footer-right{
         margin-top: 0;
         margin-left: 0;
-        
     }
     .footer-search{
         margin-top: 0;
