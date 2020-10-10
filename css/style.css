@@ -416,7 +416,9 @@ hr{
         transition: transform 0.5s ease-in;
     }
     nav{
-        float: left;
+        display: flex;
+        justify-content: left;
+        padding-left: 20px;
     }
     .header{
         display: block;
