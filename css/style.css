@@ -24,7 +24,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-color: #383232;
     min-height: 8vh;
     position: fixed;
     width: 100%;
@@ -49,11 +49,82 @@ nav li a{
     font-size: 1rem;
     letter-spacing: 3px;
 }
-.home{
-    height: 100vh;
-    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url(../images/pic1.png) center no-repeat;
+.logo{
+    min-height: 8vh;
+}
+.mini-story h1{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.cover{
+    height: 60vh;
+    background: url(../images/Hemp-oil-versus-CBD-for-anti-inflammatory-skin-care.jpg) center no-repeat ;
     background-size: cover;
     opacity: 1;
+}
+.page-cover{
+    text-align: center;
+    padding: 70px;
+}
+.page-cover form{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.page-cover input[type="text"]{
+    height: 5vh;
+    width: 20%;
+    border: 1px #111 solid;
+    padding: 5px 5px;
+}
+.page-cover input[type="submit"]{
+    background-color: steelblue;
+    border: 5px steelblue solid;
+    height: 5vh;
+    cursor: pointer;
+    color: white;
+}
+.page-cover h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.page-cover{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.mini-story ul{
+    list-style: none;
+    margin-bottom: 50px;
+    display: flex;
+    margin-left: 70px;
+}
+.mini-story img{
+    border-radius: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.mini-story p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+.mini-story li{
+    padding: 5px;
+}
+.mini-story ol{
+    margin-right: 50px;
+}
+.home{
+    background-color: #ddd;
+    padding-top: 65px;
+    height: 100vh;
 }
 .home-heading{
     color: white;
@@ -64,17 +135,24 @@ nav li a{
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
 }
-.img{
-    background-color: #ddd;
-    justify-items: center;
-}
+
 .cover-page{
-    height: 40rem;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
+    height: 40rem;  
 }
+.status{
+    float: right;
+}
+.status h1{
+    margin-right: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.status p{
+    font-family:  'Arial ';
+    padding-bottom: 3px;
+    margin-right: 20px;
+}
+
 .contact{
     padding: 20px;
 }
@@ -124,107 +202,34 @@ textarea{
     font-size: 2rem;
     letter-spacing: 2px;
 }
-.main-part{
-    background-color: #1c1c1c;
-}
-.footer-left{
-    padding: 50px;
-    margin-left: 50px;
-    
-}
-.footer-left h2{
-    margin-top: 5px;
-    color: #ddd;
+.contact-page h3{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    text-align: center;
-}
-.footer-left li{
-    list-style: none;
-    padding: 20px;
-}
-.footer-centre{
-    padding: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.footer-centre h2{
-    margin-top: 5px;
-    color: #ddd;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-}
-.footer-search input[type="text"] {
-    background-image: url('../images/search.svg');
-    background-position: right 10px ;
-    background-repeat: no-repeat;
-    background-size: 18px;
-    background-color: #ddd;
-    padding-left: 10px;
-    height: 6vh;
-    width: 40vh;
-    border: 1px #111 solid;
-}
-.footer-centre li{
-    list-style: none;
-    padding: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
-}
-.footer-centre li:hover{
+    font-weight: 500;
     font-size: 1.4rem;
-    transition: 0.25s;
-}
-.footer-centre li a{
-    text-decoration: none;
-    color: #ddd;
-}
-.footer-right{
-    padding: 50px;
-    margin-left: 20px;
-}
-.footer-right h2{
-    margin-top: 5px;
-    color: #ddd;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-}
-.footer-right ul{
-    color: #ddd;
-    list-style: none;
-}
-.footer-right li{
-    padding: 20px;
-}
-.footer-right li img{
-    margin-right: 15px;
-    margin-top: 0;
-}
-.main-part{
-    display: flex;
-}
-.footer{
-    background-color: black;
-    padding: 20px;
-}
-.footer h2{
-    margin-top: 5px;
-    color: #ddd;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1rem;
     text-align: center;
 }
-.footer-search{
-    padding: 50px;
-}
-.footer-search h2{
-    margin-top: 5px;
-    color: #ddd;
+.contact-page h4{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
 }
-.footer-search form{
-    margin-top: 30px;
+.contact-page a{
+    text-decoration: none;
+}
+.contact-page {
+    text-align: center;
+}
+.contact-page img{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.contact-page p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: teal;
 }
 .blog{
     background-color: whitesmoke;
@@ -242,25 +247,6 @@ textarea{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.05rem;
-}
-.blog form{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    padding-bottom: 30px;
-}
-.blog input[type="text"]{
-    height: 5vh;
-    border: 1px #111 solid;
-    padding: 5px 5px;
-}
-.blog input[type="submit"]{
-    background-color: steelblue;
-    border: 1px steelblue solid;
-    height: 5vh;
-    padding: 5px 5px;
-    cursor: pointer;
-    color: white;
 }
 .blog-post{
     padding: 50px;
@@ -403,12 +389,16 @@ hr{
 }
 
 @media only screen and (max-width:880px){
+    .page-cover input[type="text"]{
+        width: 60%;
+    }
     nav ul{
         position: absolute;
         left: 0px;
         height: 30vh;
         top: 8vh;
-        background-color: black;
+        background-color: #383232;
+        opacity: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -417,8 +407,11 @@ hr{
     }
     nav{
         display: flex;
-        justify-content: left;
+        justify-content: space-around;
         padding-left: 20px;
+    }
+    .logo{
+        margin-right: 330px;
     }
     .header{
         display: block;
